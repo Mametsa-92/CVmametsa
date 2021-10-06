@@ -231,7 +231,7 @@ transition-property: top, bottom;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    justify-content: 50px;
+    justify-content: space-evenly;
 
 }
 #profil h1{
@@ -308,7 +308,7 @@ transition-property: top, bottom;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: wrap;
+    flex-direction: row;
     margin-top: 50px;
 }
 
@@ -664,6 +664,17 @@ background-color: #02b8dd;
     }
     }
 
+     /* Media Query for mobile*/
+    @media only screen and (max-width:768px){
+        #competences .competences-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        
+        }
     /* Media Query for tablet */
     @media only screen and (min-width:768px){
         .cta{
