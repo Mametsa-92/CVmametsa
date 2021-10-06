@@ -681,6 +681,13 @@ background-color: #02b8dd;
     #profil h1{
         font-size: 3.5rem;
         text-align: center;
+	    
+    }
+	 #profil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
         #competences .competences-bottom{
             display: flex;
