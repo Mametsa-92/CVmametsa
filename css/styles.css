@@ -700,7 +700,13 @@ background-color: #02b8dd;
             flex-direction: column;
             margin-top: 50px;
         }
+        /* contact*/
+        #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
+        }
         }
     /* Media Query for tablet */
     @media only screen and (min-width:768px){
