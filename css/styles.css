@@ -666,6 +666,10 @@ background-color: #02b8dd;
 
      /* Media Query for mobile*/
     @media only screen and (max-width:768px){
+	    .container{
+            width: 80%;
+            margin: 0 auto;
+        }
         .cta{
             margin: 0 auto;
             font-size: 15px;
