@@ -210,7 +210,7 @@ transition-property: top, bottom;
 
 /* profil section*/
 #profil{
-    background-image: url(/Projet/practice/images/coding.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -320,7 +320,7 @@ transition-property: top, bottom;
     flex-direction:column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(/Projet/practice/images/office-g8777bc3c2_1920.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_1280.jpg);
     background-size: cover;
     margin: 10px 5%;
     z-index: 1;
