@@ -681,29 +681,39 @@ background-color: #02b8dd;
     /* profil */
 
     #profil h1{
-        font-size: 3.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
+    #profil .section-titre {
+        padding:100px ;
+    }
     #profil {
+        padding: 10px;
+        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
     /*competence*/
-     #competences h1{
+    
+    #competences h1{
        font-size: 15px;
     }
-    #competences p{
-        font-size:10px ;
-        text-align: center;
+    #competences .competences-bottom p{
+        font-size:15px;
+    }
+    #connaissance{
+    font-size:10px;
+    text-align: center;
     }
     #competences{
         padding: 30px;
         width: 100%;
         margin: 0 auto;
     }
+   
     #competences .competences-bottom{
             display: flex;
             align-items: center;
