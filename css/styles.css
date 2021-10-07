@@ -696,6 +696,11 @@ background-color: #02b8dd;
             width: 80%;
             margin: 0 auto;
     }
+	#competences{
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
     #competences .competences-bottom{
             display: flex;
             align-items: center;
