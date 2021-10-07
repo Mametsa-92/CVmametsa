@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 10px;
+    font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -666,10 +666,8 @@ background-color: #02b8dd;
 
      /* Media Query for mobile*/
     @media only screen and (max-width:768px){
-	    .container{
-            width: 80%;
-            margin: 0 auto;
-        }
+        
+        
         .cta{
             margin: 0 auto;
             font-size: 15px;
@@ -685,21 +683,41 @@ background-color: #02b8dd;
     #profil h1{
         font-size: 3.5rem;
         text-align: center;
-	    
     }
-	 #profil {
+
+    #profil {
         display: flex;
         align-items: center;
         justify-content: center;
         
     }
-        #competences .competences-bottom{
+    /*competence*/
+    #competences{
+            width: 80%;
+            margin: 0 auto;
+    }
+    #competences .competences-bottom{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             margin-top: 50px;
         }
+
+  /* experiences */
+
+  #projets .projet-info{
+    padding: 100px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+}
+
         /* contact*/
         #contact {
         display: flex;
@@ -710,6 +728,7 @@ background-color: #02b8dd;
         }
     /* Media Query for tablet */
     @media only screen and (min-width:768px){
+        
         .cta{
             font-size: 2.5rem;
             padding: 20px 60px;
