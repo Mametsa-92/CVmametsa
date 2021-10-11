@@ -20,7 +20,7 @@ document.addEventListener('scroll', () => {
 });
 
 menu_item.forEach((item) =>{
-    item.addEventListener('click', () => {
+    item.addEventListener('touchstart click', () => {
         hamburger.classList.toggle('active');
         mobile_menu.classList.toggle('active');
     })
